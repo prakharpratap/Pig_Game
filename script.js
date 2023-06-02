@@ -94,6 +94,4 @@ btnHold.addEventListener("click", () => {
 });
 
 //new game functionality
-btnNew.addEventListener("click", () => {
-  init();
-});
+btnNew.addEventListener("click", init);
